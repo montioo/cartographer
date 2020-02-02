@@ -41,6 +41,7 @@ typedef std::vector<Eigen::Vector4f> TimedPointCloud;
 struct PointCloudWithIntensities {
   TimedPointCloud points;
   std::vector<float> intensities;
+  std::vector<float> colors;
 };
 
 // Transforms 'point_cloud' according to 'transform'.
